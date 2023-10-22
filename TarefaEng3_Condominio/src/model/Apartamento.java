@@ -1,6 +1,7 @@
 package model;
 
 import java.util.Set;
+import abstracoes.IResidente;
 
 public class Apartamento {
 	
@@ -30,7 +31,7 @@ public class Apartamento {
 		this.qtdQuartos = qtdQuartos;
 	}
 	
-	public void registrarApto(Apartamento apto, Proprietario prop) {
+	public void registrarApto(Apartamento apto, IResidente prop) {
 		
 	}
 }
