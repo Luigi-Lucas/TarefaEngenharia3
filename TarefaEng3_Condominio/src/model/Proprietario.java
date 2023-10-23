@@ -34,7 +34,7 @@ public class Proprietario implements IResidente{
 	}
 
 	@Override
-	public void cadastrarProp(Proprietario prop) {
+	public void cadastrarProp(IResidente prop) {
 		
 	}
 }
